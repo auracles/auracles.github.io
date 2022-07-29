@@ -1,30 +1,30 @@
 /* BODY */
 
 body {
-	background-color: #fffff0;
+	background-color: #fffdf8;
 	font-family: 'Courier New', Consolas, sans-serif, monospace;
 	line-height: 1.2em;
-	color: rgb(49, 49, 49);
+	color: #313131;
 	text-align: left;
     padding: 3%;
 
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 0%;
 
 }
 
 /* TOPNAV */
 
 .topnav {
-    background-color: rgb(244, 211, 255);
+    background-color: #f0e6fa;
     padding: 0.6% 1.5%;
     word-wrap: normal;
 }
 
 .topnav a {
-    color:rgb(49, 49, 49);
+    color:#313131;
     font-family: 'Courier New', Consolas, monospace;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .writing a:hover {
-    color: rgb(244, 211, 255) ;
+    color: #fffdf8 ;
     animation-duration: 5s;
     border-radius: 0.2%;
 }
@@ -51,7 +51,7 @@ body {
 
 .blog-entry {
     margin: 0;
-    background-color:rgb(244, 211, 255);
+    background-color:#e8e8e8;
     padding: 3%;
     font-family:Arial, Helvetica;
     line-height: 1.1em;
@@ -59,6 +59,28 @@ body {
 }
 
 .blog-entry a {
-    color:rgb(49, 49, 49);
+    color:#313131;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* FOOTER */    /*CONTACT*/
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;     /*better align text in center*/
+    margin-top: 3%;
+    background-color: #efefef;
+    color:rgb(49, 49, 49);
+    font-size: medium;
+    text-align: center;
+}
+
+.contact a {
+    color:rgb(49, 49, 49);
+    font-family: 'Courier New', Consolas, monospace;
+    
 }
